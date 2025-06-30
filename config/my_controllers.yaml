@@ -23,7 +23,7 @@ controller_maneger:
 diff_cont:
   ros__parameters:
 
-    publish_rate: 50
+    publish_rate: 30
     base_frame_id: "base_link"
 
     left_wheel_names: ['left_wheel_joint']

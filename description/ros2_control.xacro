@@ -30,6 +30,8 @@
     <gazebo>
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
             <parameters>$(find my_bot)/config/my_controllers.yaml</parameters>
+            <update_rate>100</update_rate>
+            <robot_param>robot_description</robot_param>
         </plugin>
     </gazebo>
 
